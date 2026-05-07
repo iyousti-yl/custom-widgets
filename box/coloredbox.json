@@ -4,29 +4,29 @@
 	"name": "Box",
 	"description": "Box",
 	"newInstancePrefix": "Box",
-	"icon": "https://iyousti-yl.github.io/custom-widgets/coloredBox/icon.png",
+	"icon": "https://iyousti-yl.github.io/custom-widgets/box/icon.png",
 	"vendor": "Youlytics",
 	"eula": "",
 	"license": "",
 	"webcomponents": [
 		{
 			"kind": "main",
-			"tag": "com-youlytics-coloredbox",
-			"url": "https://iyousti-yl.github.io/custom-widgets/coloredBox/box.js",
+			"tag": "com-youlytics-box",
+			"url": "https://iyousti-yl.github.io/custom-widgets/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
-			"tag": "com-youlytics-coloredbox-styling",
-			"url": "https://iyousti-yl.github.io/custom-widgets/coloredBox/box_styling.js",
+			"tag": "com-youlytics-box-styling",
+			"url": "https://iyousti-yl.github.io/custom-widgets/box/box_styling.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
-			"tag": "com-youlytics-coloredbox-builder",
-			"url": "https://iyousti-yl.github.io/custom-widgets/coloredBox/box_builder.js",
+			"tag": "com-youlytics-box-builder",
+			"url": "https://iyousti-yl.github.io/custom-widgets/box/box_builder.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}

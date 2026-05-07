@@ -38,5 +38,5 @@
 		}
 	}
 
-	customElements.define("com-youlytics-coloredbox", Box);
+	customElements.define("com-youlytics-box", Box);
 })();

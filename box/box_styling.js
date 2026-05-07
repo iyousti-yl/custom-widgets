@@ -43,5 +43,5 @@
 		}
 	}
 
-customElements.define("com-youlytics-coloredbox-styling", BoxStylingPanel);
+customElements.define("com-youlytics-box-styling", BoxStylingPanel);
 })();
