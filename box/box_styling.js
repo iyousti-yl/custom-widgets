@@ -3,25 +3,19 @@
 	template.innerHTML = `
 		<form id="form">
 			<fieldset>
-				<legend>Colored Box Properties</legend>
+				<legend>Box Properties</legend>
 				<table>
 					<tr>
-						<td>Opacity</td>
-						<td><input id="builder_opacity" type="text" size="5" maxlength="5"></td>
+						<td>Color</td>
+						<td><input id="styling_color" type="text" size="40" maxlength="40"></td>
 					</tr>
 				</table>
 				<input type="submit" style="display:none;">
 			</fieldset>
 		</form>
-		<style>
-		:host {
-			display: block;
-			padding: 1em 1em 1em 1em;
-		}
-		</style>
 	`;
 
-	class ColoredBoxBuilderPanel extends HTMLElement {
+	class BoxStylingPanel extends HTMLElement {
 		constructor() {
 			super();
 			this._shadowRoot = this.attachShadow({mode: "open"});
@@ -34,20 +28,20 @@
 			this.dispatchEvent(new CustomEvent("propertiesChanged", {
 					detail: {
 						properties: {
-							opacity: this.opacity
+							color: this.color
 						}
 					}
 			}));
 		}
 
-		set opacity(newOpacity) {
-			this._shadowRoot.getElementById("builder_opacity").value = newOpacity;
+		set color(newColor) {
+			this._shadowRoot.getElementById("styling_color").value = newColor;
 		}
 
-		get opacity() {
-			return this._shadowRoot.getElementById("builder_opacity").value;
+		get color() {
+			return this._shadowRoot.getElementById("styling_color").value;
 		}
 	}
 
-	customElements.define("com-sap-sample-coloredbox-builder", ColoredBoxBuilderPanel);
+customElements.define("com-youlytics-coloredbox-styling", BoxStylingPanel);
 })();

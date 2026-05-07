@@ -4,29 +4,29 @@
 	"name": "Box",
 	"description": "Box",
 	"newInstancePrefix": "Box",
-	"icon": "https://www.sample.com/customwidgets/coloredbox/icon.png",
+	"icon": "https://iyousti-yl.github.io/custom-widgets/coloredBox/icon.png",
 	"vendor": "Youlytics",
 	"eula": "",
 	"license": "",
 	"webcomponents": [
 		{
 			"kind": "main",
-			"tag": "com-sap-sample-coloredbox",
-			"url": "https://www.sample.com/customwidgets/coloredbox/coloredbox.js",
+			"tag": "com-youlytics-coloredbox",
+			"url": "https://iyousti-yl.github.io/custom-widgets/coloredBox/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
-			"tag": "com-sap-sample-coloredbox-styling",
-			"url": "https://www.sample.com/customwidgets/coloredbox/coloredbox_styling.js",
+			"tag": "com-youlytics-coloredbox-styling",
+			"url": "https://iyousti-yl.github.io/custom-widgets/coloredBox/box_styling.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
-			"tag": "com-sap-sample-coloredbox-builder",
-			"url": "https://www.sample.com/customwidgets/coloredbox/coloredbox_builder.js",
+			"tag": "com-youlytics-coloredbox-builder",
+			"url": "https://iyousti-yl.github.io/custom-widgets/coloredBox/box_builder.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
@@ -71,7 +71,7 @@
 	},
 	"events": {
 		"onClick": {
-			"description": "Called when the user clicks the Colored Box."
+			"description": "Called when the user clicks the Box."
 		}
 	}
 }
